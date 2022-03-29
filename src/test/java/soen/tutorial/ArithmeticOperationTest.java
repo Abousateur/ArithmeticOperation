@@ -8,25 +8,25 @@ import static org.junit.Assert.fail;
 public class ArithmeticOperationTest {
 
 
-// 	@Test
-// 	public void testAdd()
-// 	{
+	@Test
+	public void testAdd()
+	{
 
 		ArithmeticOperation operations = new ArithmeticOperation();
 		Integer actual = operations.addOrSub(2, 6);
 		Integer expected = 8;
-// 		assertEquals(expected, actual);
-		fail("must fail");
-// 	}
-//     @Test
-//     public void testSub()
-//     {
+		assertEquals(expected, actual);
+// 		fail("must fail");
+	}
+    @Test
+    public void testSub()
+    {
 
-//         ArithmeticOperation operations = new ArithmeticOperation();
-//         Integer actual = operations.addOrSub(6, 2);
-//         Integer expected = 4;
-//         assertEquals(expected, actual);
+        ArithmeticOperation operations = new ArithmeticOperation();
+        Integer actual = operations.addOrSub(6, 2);
+        Integer expected = 4;
+        assertEquals(expected, actual);
 
-//     }
+    }
 
 }
